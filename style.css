@@ -1,0 +1,96 @@
+/* Style the tab */
+body{
+  background: #f2f2f2;
+  padding:20px!important;
+   
+}
+.tabContainers{
+float:left;
+background-color: white;
+display: flex;
+width: 50%;
+margin: 20px 247px 20px 330px;
+}
+
+.tabContainers .buttonContainers{
+  
+  float:left;
+  width: 65%;
+}
+
+.tabContainers .buttonContainers button{
+ width:26%;
+ height: 72%;
+ float:left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 22px 10px 22px 10px ;
+ font-family: 'Barlow Condensed',sans-serif;
+ font-size: 20px;
+ background-color: #fff;
+ color: #fff;
+ background-color: #bf0204;
+ margin:20px 14px 19px 14px;
+}
+
+.tabPanel{
+    height: 70%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Barlow Condensed',sans-serif;
+    
+  }
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+  
+.d-flex {
+    display: flex!important;
+    align-items: center;
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#f9f9f9;
+}
+
+.col-sm-4 {
+    width: 35%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+
+.title{
+  font-family: 'Barlow Condensed',sans-serif;
+  color:#bf0204;
+  text-align: left;
+  margin :0px;
+}
+
+ .col-sm-8 {
+    width: 56%;
+    height:201px;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+  }
+
+p{
+  text-align: justify;
+  font-size: 18px;
+  display: block;
+  line-height: 1.5rem;
+}
+span{
+ 
+  font-size: 16px;
+  margin-right:5px;
+}
+
+
